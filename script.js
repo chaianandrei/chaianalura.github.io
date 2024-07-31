@@ -6,40 +6,40 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "QUAL A IMPORTÂNCIA DO MEIO AMBIENTE PARA A VIDA?",
+        enunciado: "Você considera o meio ambiente importante para a vida?",
         alternativas: [
             {
                 texto: "O meio ambiente é fundamental para a vida",
-                afirmacao: "O meio ambiente desempenha um papel fundamental na sustentação da vida na Terra. Ele fornece recursos essenciais como água, ar puro, alimentos e abrigo para os seres vivos. Além disso, os ecossistemas presentes no meio ambiente mantêm um equilíbrio natural, onde cada organismo desempenha um papel importante na cadeia alimentar e na regulação do clima. Portanto, a preservação e o cuidado com o meio ambiente são essenciais para garantir a sobrevivência das espécies e a saúde do planeta como um todo."
+                afirmacao: "O meio ambiente desempenha um papel fundamental na sustentação da vida na Terra. Ele fornece recursos essenciais como água, ar puro, alimentos e abrigo para os seres vivos."
             },
             {
-                texto: "NO meio ambiente não tem relevância para a vida",
-                afirmacao: "O meio ambiente não tem importância para a vida, pois os seres vivos conseguiriam se adaptar a qualquer condição, independentemente da qualidade do ambiente ao seu redor. Além disso, a degradação ambiental não impacta diretamente na sobrevivência das espécies, pois a natureza é capaz de se regenerar por si só sem a intervenção humana."
+                texto: "O meio ambiente não tem relevância para a vida",
+                afirmacao: "O meio ambiente não tem importância para a vida, pois os seres vivos conseguiriam se adaptar a qualquer condição, independentemente da qualidade do ambiente ao seu redor."
             }
         ]
     },
     {
-        enunciado: "O QUE É ECOLOGIA?",
+        enunciado: "Devemos preservar a natureza aqui existente?",
         alternativas: [
             {
-                texto: "É a ciência que estuda os seres vivos, no meio em que vivem.",
-                afirmacao: "O meio ambiente é a casa da vida. Sem um meio ambiente sadio não é possível manter a saúde do planeta. É nele que encontramos os recursos naturais necessários para a sobrevivência dos seres vivos, como água, alimentos e as matérias-primas. Sem esses recursos não temos vida."
+                texto: "Sim.",
+                afirmacao: "Além disso, os ecossistemas presentes no meio ambiente mantêm um equilíbrio natural, onde cada organismo desempenha um papel importante na cadeia alimentar e na regulação do clima. Portanto, a preservação e o cuidado com o meio ambiente são essenciais para garantir a sobrevivência das espécies e a saúde do planeta como um todo."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Não.",
+                afirmacao: "Além disso, a degradação ambiental não impacta diretamente na sobrevivência das espécies, pois a natureza é capaz de se regenerar por si só sem a intervenção humana.."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "As grandes empresas devem ter cuidado com a degradação do meio ambiente?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Sim, é essencial para o cuidado do meio ambiente.",
+                afirmacao: "as grandes empresas estão tendo muito cuidado com a degradação do meio ambiente. A proteção ambiental é crucial não apenas para a saúde do planeta, mas também para a sustentabilidade a longo prazo dos próprios negócios."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Não, mal nenhum pode acontecer.",
                 afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
             }
         ]
