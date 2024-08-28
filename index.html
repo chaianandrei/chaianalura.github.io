@@ -1,20 +1,39 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Você decide o futuro da IA</title>
+    <title>Nome Aleatório</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #nome {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <div class="caixa-principal">
-        <h1>Você decide o futuro da vida</h1>
-        <div class="caixa-perguntas"></div>
-        <div class="caixa-alternativas"></div>
-        <div class="caixa-resultado">
-            <p class="texto-resultado"></p>
-        </div>
-    </div>
-    <script src="script.js"></script>
+    <h1>Gerador de Nome Aleatório</h1>
+    <button onclick="gerarNome()">Gerar Nome</button>
+    <div id="nome"></div>
+
+    <script>
+        function gerarNome() {
+            const nomes = ["Fabricio", "Chaian", "Mateus"];
+            const nomeAleatorio = nomes[Math.floor(Math.random() * nomes.length)];
+            document.getElementById("nome").textContent = nomeAleatorio;
+        }
+    </script>
 </body>
 </html>
