@@ -49,23 +49,23 @@ nav a:hover {
 
 .graficos-container {
     margin: 5rem;
-    
 }
 
 .grafico {
     margin-top: 3rem;
+    color: var(--tertiary-color);
 }
 
 .graficos-container__texto {
     font-size: 1.3rem;
     text-align: center;
     padding: 2rem;
-    border: var(--tertiary-color) solid 2px;
+    border: var(--secondary-color) solid 2px;
 }
 
 span {
     font-weight: bold;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 footer {
