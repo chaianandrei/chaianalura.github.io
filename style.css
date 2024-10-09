@@ -48,11 +48,12 @@ nav a:hover {
 
 .graficos-container {
     margin: 5rem;
-     color: #c0392b;
+    
 }
 
 .grafico {
     margin-top: 3rem;
+     color: #c0392b;
 }
 
 .graficos-container__texto {
